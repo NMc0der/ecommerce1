@@ -52,7 +52,8 @@ export function Navbar() {
       </div>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="sm:hidden  text-4xl"
+        // className=" sm:hidden  text-4xl"
+        className={isOpen ? "text-4xl" : "sm:hidden  text-4xl"}
       >
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
@@ -61,3 +62,5 @@ export function Navbar() {
 }
 
 // className="rightSide items-center w-full flex justify-between mr-[4rem] sm:flex hidden "
+
+// ternary for button sm hidden
