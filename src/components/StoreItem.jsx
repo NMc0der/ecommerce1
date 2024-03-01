@@ -6,7 +6,7 @@ export function StoreItem({ image, name, price }) {
         style={{ backgroundImage: `url(${image})` }}
       ></div>
       <h1 className="ml-[20px]">{name}</h1>
-      <p className="ml-[20px]">{price}</p>
+      <p className="ml-[20px]">${price}</p>
     </div>
   );
 }
