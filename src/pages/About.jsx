@@ -1,14 +1,14 @@
-import backgroundImg from "../assets/fashion_shopping.jpg";
+import backgroundImg from "../assets/HudsonYardsStoreEdits-5.jpg";
 
 export function About() {
   return (
-    <div className="about w-full h-[90vh] flex flex-col">
+    <div className="about w-full h-[90vh] flex flex-col ">
       <div
         className="aboutTop w-full h-[45%] bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${backgroundImg})` }}
       ></div>
-      <div className="aboutBottom flex flex-col h-[55%] items-center mt-[50px]">
-        <h1 className="font-normal text-[70px] text-black h-[30px] flex justify-center translate-y-[-40px]">
+      <div className="aboutBottom flex flex-col h-[55%] justify-center items-center mt-[50px]">
+        <h1 className="font-normal text-[70px] text-black h-[30px] flex justify-center translate-y-[-145px]">
           ABOUT US
         </h1>
         <p className="w-[1200px]">
